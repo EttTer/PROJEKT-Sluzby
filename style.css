@@ -1,0 +1,17 @@
+html {
+    box-sizing: border-box;
+  }
+  *,
+  :after,
+  :before {
+    box-sizing: inherit;
+  }
+/* barvy 
+    pozadí : #FAFAFA
+    nadpis černá : #000000
+    tlačítko šedá :#8B8B8B
+    tlačítko modrá: #407BFF
+    klasická bílá : #FFFFFF
+    světle modrá : #407BFF1F
+
+
