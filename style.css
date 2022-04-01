@@ -9,9 +9,75 @@ html {
 /* barvy 
     pozadí : #FAFAFA
     nadpis černá : #000000
-    tlačítko šedá :#8B8B8B
+    tlačítko šedá, text :#8B8B8B
     tlačítko modrá: #407BFF
     klasická bílá : #FFFFFF
-    světle modrá : #407BFF1F
+    světle modrá : #407BFF
 */
-body{background-color: #FAFAFA;}
+body{background-color: #FAFAFA;
+    font-family: 'Montserrat', sans-serif;
+margin: 0;}
+p{font-size: 16px;
+color: #8B8B8B;
+font-weight: 300;
+text-align: center;
+margin: 0;
+padding: 0 20px;}
+
+.text {font-size: 13px;}
+
+.button {font-size: 14px;font-weight: 400; color:#FFFFFF ;}
+
+h1{font-size: 28px;font-weight: 500; color:#000000 ;
+text-align: center;
+margin-top: 39.5px;
+margin-bottom: 10px;}
+
+h2{font-size: 16px;font-weight: 500; color:#000000 ;text-align: center; margin: 60px 0  15px 0;}
+
+/*jednotlivé prvky*/
+/* obrázek*/
+
+.hlavniObrazek {width: 350px; height: 290.5px;
+padding-top: 60px;
+display: block;
+margin: 0 auto 0 auto;}
+
+/* cara*/
+.cara {width:60px; height: 2px;}
+
+/* tlačítka*/
+.button{padding: 11px 0;
+height: 40px;
+margin: 0 auto 10px auto;
+border-radius: 20px;
+text-align: center;}
+
+.modry {border: 1px solid #407BFF;
+background-color: #407BFF;
+width: 195px;
+margin-top: 30px;}
+
+
+
+.sedy {border: 1px solid #8B8B8B;
+    background-color: #8B8B8B;
+    width: 220px;
+margin-bottom: 0;}
+
+
+/* flexboxy*/
+
+.ikona {display: flex;
+border: 1px solid white;
+border-radius: 10px;
+background-color: white;
+height: 80px;width: 460px;
+margin: 28px auto 15px auto;
+align-items: center;
+justify-content: center;
+box-shadow: 0px 4px 6px #407BFF1F;}
+
+.obrazek {width: 45px; height: 40px;}
+.sesta {margin-bottom: 67px;}
+ 
