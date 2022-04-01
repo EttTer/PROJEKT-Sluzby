@@ -49,7 +49,7 @@ h1 {
 
 h2 {
   font-size: 16px;
-  font-weight: bold;;
+  font-weight: bold;
   color: #000000;
   text-align: center;
   margin: 60px 0 15px 0;
@@ -156,57 +156,93 @@ svg {
 /* desktop version*/
 
 @media screen and (min-width: 1100px) {
-    .desktop{display: flex;
+  .desktop {
+    display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
+    max-width: 1040px;
+  }
 
-max-width: 1040px;}
+  .picturebox {
+    width: 490px;
+    margin: 60px 0 80px 0;
+  }
+  .hlavniObrazek {
+    max-width: 425px;
+    height: 354px;
+    padding-top: 0;
+    margin: 0 auto 0 auto;
+  }
 
-    .picturebox{ width: 490px; margin: 60px 0 80px 0;}
-    .hlavniObrazek {max-width: 425px;height: 354px; padding-top: 0;
-    margin: 0 auto 0 auto;}
+  .textbox {
+    width: 490px;
+    margin-right: 60px;
+  }
 
-    .textbox { width: 490px; margin-right: 60px;
-        }
+  h1 {
+    margin-top: 133px;
+    text-align: left;
+  }
+  .odstavec p {
+    text-align: left;
+    padding: 0;
+  }
+  .buttonky {
+    justify-content: space-between;
+  }
+  .modry {
+    margin-left: 0;
+    margin-right: 0;
+  }
 
-    h1 {margin-top: 133px;
-    text-align: left;}
-   .odstavec p {text-align: left;padding: 0;}
-   .buttonky {justify-content: space-between;}
-   .modry{margin-left: 0;
-margin-right: 0;}
+  svg {
+    display: block;
+    margin: 10px 0 20px 0;
+  }
 
-   svg {display: block;
-margin: 10px 0 20px 0;}
+  .box {
+    display: flex;
+    margin: 0 80px 0 80px;
+    max-width: 1040px;
+  }
+  .tablet {
+    width: 550px;
+  }
 
-   .box {display: flex;
-margin: 0 80px 0 80px;
-max-width: 1040px;}
-   .tablet{width: 550px;}
+  .ikona {
+    flex: 1 1 calc(100% / 3);
+    margin: 0 20px 0 0;
+  }
 
-   .ikona {flex: 1 1 calc(100%/3);
-margin: 0 20px 0 0;}
+  .fox p {
+    width: 430px;
+    text-align: left;
+    padding: 0;
+  }
 
-   .fox p{width: 430px;
-text-align: left;
-padding: 0;}
+  h2 {
+    text-align: left;
+    margin-top: 0;
+  }
 
+  .top {
+    flex-direction: row-reverse;
+    margin-left: 80px;
+    align-items: center;
+  }
 
-h2 {text-align: left;
-margin-top: 0;}
+  .horni {
+    margin: 0 60px 0 80px;
+    max-width: 1040px;
+  }
 
-.top{flex-direction: row-reverse;
-margin-left: 80px;
-align-items: center;}
+  .dolni {
+    margin-left: 60px;
+    margin-bottom: 0;
+  }
 
-.horni{ margin: 0 60px 0 80px;
-max-width: 1040px;}
-
-.dolni{margin-left: 60px;
-margin-bottom: 0;}
-
- .box.bottom  {
+  .box.bottom {
     margin: 80px 80px;
-align-items:center;}
-
+    align-items: center;
+  }
 }
