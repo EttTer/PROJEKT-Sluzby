@@ -159,7 +159,7 @@ svg {
     .desktop{display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-margin-left: 0 80px 0 80px;
+
 max-width: 1040px;}
 
     .picturebox{ width: 490px; margin: 60px 0 80px 0;}
