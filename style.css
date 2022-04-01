@@ -67,8 +67,10 @@ h2 {
 }
 
 /* cara*/
-svg{display: block;
-margin:0 auto 30px auto;}
+svg {
+  display: block;
+  margin: 0 auto 30px auto;
+}
 
 /* tlačítka*/
 .button {
@@ -114,4 +116,23 @@ margin:0 auto 30px auto;}
 }
 .sesta {
   margin-bottom: 67px;
+}
+/*tablet version*/
+
+@media screen  and (min-width: 640px){
+    .button{margin:30px auto 20px auto}
+    .modry{margin-right: 20px;}
+    .sedy{margin-left: 20px;}
+    .buttonky {display: flex;
+    align-items: center;}
+
+.tablet {display: flex;
+justify-content: center;}
+.ikona {width: 230px; height: 172px;
+margin: 40px 20px 20px 20px;
+flex-direction: column;
+justify-content: center;}
+.obrazek {margin-bottom: 20px;}
+.dolni{margin-bottom: 60px;}
+    
 }
